@@ -1,0 +1,22 @@
+{
+	"name": "safe-alternative-address-demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"v6": "tsx src/v6",
+		"v7": "tsx src/v7"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"permissionless": "^0.2.23",
+		"tslib": "^2.8.1",
+		"tsx": "^4.19.2",
+		"viem": "^2.21.57"
+	},
+	"devDependencies": {
+		"@types/node": "^22.10.2"
+	}
+}
